@@ -9,3 +9,17 @@
 8. In ArrayList, manipulation is little slower than the LinkedList in Java because a lot of shifting needs to occur if any element is removed from the array list.
 
 `public class ArrayList<E> extends AbstractList<E> implements List<E>, RandomAccess, Cloneable, Serializable`
+
+# **LinkedList**
+
+1. Java LinkedList class uses a doubly linked list to store the elements. 
+2. It provides a linked-list data structure. 
+3. It inherits the AbstractList class and implements List and Deque interfaces
+4. Java LinkedList class can contain duplicate elements.
+5. Java LinkedList class maintains insertion order.
+6. Java LinkedList class is non synchronized.
+7. In Java LinkedList class, manipulation is fast because no shifting needs to occur.
+8. Java LinkedList class can be used as a list, stack or queue.
+
+`public class LinkedList<E> extends AbstractSequentialList<E> implements List<E>, Deque<E>, Cloneable, Serializable  
+`
