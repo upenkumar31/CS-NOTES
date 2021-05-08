@@ -1,4 +1,8 @@
 # **ArrayList**
+
+`public class ArrayList<E> extends AbstractList<E> implements List<E>, RandomAccess, Cloneable, Serializable`
+
+
 1. Java ArrayList class uses a dynamic array for storing the elements
 2. It is like an array, but there is no size limit
 3. It implements the List interface, so we can use all the methods of List interface here
@@ -8,9 +12,11 @@
 7.  Java ArrayList allows random access because array works at the index basis.
 8. In ArrayList, manipulation is little slower than the LinkedList in Java because a lot of shifting needs to occur if any element is removed from the array list.
 
-`public class ArrayList<E> extends AbstractList<E> implements List<E>, RandomAccess, Cloneable, Serializable`
 
 # **LinkedList**
+
+`public class LinkedList<E> extends AbstractSequentialList<E> implements List<E>, Deque<E>, Cloneable, Serializable  
+`
 
 1. Java LinkedList class uses a doubly linked list to store the elements. 
 2. It provides a linked-list data structure. 
@@ -21,5 +27,3 @@
 7. In Java LinkedList class, manipulation is fast because no shifting needs to occur.
 8. Java LinkedList class can be used as a list, stack or queue.
 
-`public class LinkedList<E> extends AbstractSequentialList<E> implements List<E>, Deque<E>, Cloneable, Serializable  
-`
