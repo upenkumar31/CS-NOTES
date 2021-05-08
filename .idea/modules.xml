@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/CS-NOTES.iml" filepath="$PROJECT_DIR$/.idea/CS-NOTES.iml" />
+      <module fileurl="file://$PROJECT_DIR$/COLLECTIONS/JAVA Collections.iml" filepath="$PROJECT_DIR$/COLLECTIONS/JAVA Collections.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MULTI-THREADING/MULTI-THREADING.iml" filepath="$PROJECT_DIR$/MULTI-THREADING/MULTI-THREADING.iml" />
+    </modules>
+  </component>
+</project>
