@@ -46,6 +46,6 @@ public class ArrayListExample {
         arrayList.trimToSize();
 
         //getting sublist
-        arrayList.subList(2,7)
+        arrayList.subList(2,7);
     }
 }
