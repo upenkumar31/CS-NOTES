@@ -18,5 +18,7 @@ public class ThreadExample {
         thread.start(); // start execution of thread
         thread.wait(1000);
         thread.notify();
+        thread.suspend();  //suspend thread
+        thread.resume(); // start suspended thread
     }
 }
