@@ -67,3 +67,14 @@
 `public boolean isInterrupted(): tests if the thread has been interrupted.`
 
 `public static boolean interrupted(): tests if the current thread has been interrupted.`
+
+
+**The thread scheduler mainly uses preemptive or time slicing scheduling to schedule the threads.**
+
+
+### **Daemon Thread in Java**
+1. It provides services to user threads for background supporting tasks. It has no role in life than to serve user threads.
+2. Its life depends on user threads.
+3. It is a low priority thread.
+4. If you want to make a user thread as Daemon, it must not be started otherwise it will throw IllegalThreadStateException
+
