@@ -78,3 +78,23 @@
 3. It is a low priority thread.
 4. If you want to make a user thread as Daemon, it must not be started otherwise it will throw IllegalThreadStateException
 
+### **The JVM shuts down when:**
+1. user presses ctrl+c on the command prompt
+2. System.exit(int) method is invoked
+3. user logoff
+4. user shutdown etc.
+
+**Advantage of Garbage Collection**
+It makes java memory efficient because garbage collector removes the unreferenced objects from heap memory.
+It is automatically done by the garbage collector(a part of JVM) so we don't need to make extra efforts.
+
+**How can an object be unreferenced?**
+
+There are many ways:
+
+1. By nulling the reference
+2. By assigning a reference to another
+3. By an anonymous object etc.
+
+System.gc();  // to call Garbage Collector
+

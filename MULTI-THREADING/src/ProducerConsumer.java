@@ -23,7 +23,8 @@ class Producer extends Thread {
                 if (queue.size()<10) {
                     System.out.println("Producer is Working");
                     queue.add(Thread.currentThread().getName());
-                } else Thread.sleep(1000);
+                }
+                Thread.sleep(1000);
             }
         }catch (InterruptedException exception)
         {
@@ -43,7 +44,8 @@ class Consumer extends Thread {
                 if (!queue.isEmpty()) {
                     System.out.println("Consumer is working");
                     System.out.println(queue.poll());
-                } else Thread.sleep(1000);
+                }
+                Thread.sleep(1000);
             }
         }catch (InterruptedException exception)
         {
