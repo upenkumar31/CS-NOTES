@@ -36,3 +36,47 @@
 5. HashSet doesn't maintain the insertion order. Here, elements are inserted on the basis of their hashcode.
 6. HashSet is the best approach for search operations
 7.   The initial default capacity of HashSet is 16, and the load factor is 0.75.
+
+# **LinkedHashSet**
+
+`public class LinkedHashSet<E> extends HashSet<E> implements Set<E>, Cloneable, Serializable
+`
+1. Java LinkedHashSet class is a Hashtable and Linked list implementation of the set interface. It inherits HashSet class and implements Set interface.
+2. Java LinkedHashSet class contains unique elements only like HashSet.
+3. Java LinkedHashSet class provides all optional set operation and permits null elements.
+4. Java LinkedHashSet class is non synchronized.
+5. Java LinkedHashSet class maintains insertion order.
+
+# **TreeSet**
+
+`public class TreeSet<E> extends AbstractSet<E> implements NavigableSet<E>, Cloneable, Serializable
+`
+1. Java TreeSet class implements the Set interface that uses a tree for storage. It inherits AbstractSet class and implements the NavigableSet interface. The objects of the TreeSet class are stored in ascending order
+2. Java TreeSet class contains unique elements only like HashSet.
+3. Java TreeSet class access and retrieval times are quiet fast.
+4. Java TreeSet class doesn't allow null element.
+5. Java TreeSet class is non synchronized.
+6. Java TreeSet class maintains ascending order.
+
+
+# **PriorityQueue**
+
+`public class PriorityQueue<E> extends AbstractQueue<E> implements Serializable  
+`
+The PriorityQueue class provides the facility of using queue. But it does not orders the elements in FIFO manner. It inherits AbstractQueue class
+
+# **ArrayDeque**
+
+1. The ArrayDeque class provides the facility of using deque and resizable-array. It inherits AbstractCollection class and implements the Deque interface
+2. Unlike Queue, we can add or remove elements from both sides.
+3. Null elements are not allowed in the ArrayDeque.
+4. ArrayDeque is not thread safe, in the absence of external synchronization.
+5. ArrayDeque has no capacity restrictions.
+6. ArrayDeque is faster than LinkedList and Stack.
+
+
+# **Map**
+
+1. HashMap is the implementation of Map, but it doesn't maintain any order.
+2. LinkedHashMap is the implementation of Map. It inherits HashMap class. It maintains insertion order.
+3. TreeMap is the implementation of Map and SortedMap. It maintains ascending order.
