@@ -77,6 +77,15 @@ The PriorityQueue class provides the facility of using queue. But it does not or
 
 # **Map**
 
+`public class HashMap<K,V> extends AbstractMap<K,V> implements Map<K,V>, Cloneable, Serializable
+`
+
 1. HashMap is the implementation of Map, but it doesn't maintain any order.
 2. LinkedHashMap is the implementation of Map. It inherits HashMap class. It maintains insertion order.
 3. TreeMap is the implementation of Map and SortedMap. It maintains ascending order.
+4. Java HashMap contains values based on the key.
+5. Java HashMap contains only unique keys.
+6. Java HashMap may have one null key and multiple null values.
+7. Java HashMap is non synchronized.
+8. Java HashMap maintains no order.
+9. The initial default capacity of Java HashMap class is 16 with a load factor of 0.75.
