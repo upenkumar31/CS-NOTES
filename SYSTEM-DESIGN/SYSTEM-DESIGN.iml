@@ -5,6 +5,7 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/Hashing and Encoding" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Multi-Level Cache" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Snack&amp;Ladder" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
