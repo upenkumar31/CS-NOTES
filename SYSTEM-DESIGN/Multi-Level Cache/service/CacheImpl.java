@@ -1,7 +1,7 @@
 package service;
 
-import Model.Cache;
-import Model.User;
+import model.Cache;
+import model.User;
 
 import java.util.HashMap;
 import java.util.LinkedList;

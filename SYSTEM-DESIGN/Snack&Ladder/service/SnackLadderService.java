@@ -1,6 +1,6 @@
 package service;
 
-import Model.Board;
+import model.Board;
 
 import java.util.Random;
 

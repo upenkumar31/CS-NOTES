@@ -1,6 +1,6 @@
 package service;
 
-import Model.User;
+import model.User;
 import java.util.LinkedList;
 import java.util.Random;
 

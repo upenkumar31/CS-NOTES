@@ -1,6 +1,4 @@
-package Model;
-
-import java.util.Arrays;
+package model;
 
 public class Board {
     Box[] box;

@@ -1,4 +1,4 @@
-import Model.User;
+import model.User;
 import service.CacheService;
 
 import java.util.Random;

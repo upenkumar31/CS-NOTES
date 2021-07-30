@@ -7,6 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Multi-Level Cache" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Snack&amp;Ladder" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Typehead Suggestion" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

@@ -1,6 +1,6 @@
 package service;
 
-import Model.User;
+import model.User;
 
 import java.util.ArrayList;
 import java.util.Random;
@@ -18,18 +18,19 @@ public class CacheService {
     public User getUserData(int key)
     {
         int count=1;
+        User result = null;
         for(CacheImpl cache:caches)
         {
             // cache found
-            if(cache.get(key)!=null)
+            if((result=cache.get(key))!=null)
             {
                 System.out.println("Found data in cache: "+count);
-                return cache.get(key);
+                return result;
             }
             count++;
         }
         //cache miss
-        User result = DataProvider.getDataProviderInstance().getData(key);
+        result = DataProvider.getDataProviderInstance().getData(key);
         if(result!=null)
         {
             System.out.println("Data Coming from data source");
