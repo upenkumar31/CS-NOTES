@@ -4,7 +4,7 @@ import java.util.List;
 
 public class DriverClass {
     public static void main(String[] args) {
-        String previouslySearchWord[]={"hello","hi","how","he","hell","hells"};
+        String previouslySearchWord[]={"hello","hi","how","he","hell","hellos"};
         TypeHeadServiceImpl typeHeadService = new TypeHeadServiceImpl();
         typeHeadService.addWordToDictionary(previouslySearchWord);
         List<String > recommendedWord = typeHeadService.getWordFromPrefix("hel");

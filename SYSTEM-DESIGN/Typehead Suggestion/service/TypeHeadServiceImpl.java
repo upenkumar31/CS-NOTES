@@ -4,7 +4,7 @@ import java.util.List;
 
 /**
  *  This class adds word to frequent used dictionary
- *  and return frequent used word from suffix String
+ *  and return frequent used word from prefix String
  */
 public class TypeHeadServiceImpl implements TypeHeadService {
     /**
@@ -21,15 +21,14 @@ public class TypeHeadServiceImpl implements TypeHeadService {
         Dictionary.getInstance().addWord(word);
     }
 
-
     /**
      *
-     * @param suffixWord
+     * @param prefixWord
      * @return
      */
     @Override
-    public List<String> getWordFromPrefix(String suffixWord) {
-        return Dictionary.getInstance().wordFromSuffix(suffixWord);
+    public List<String> getWordFromPrefix(String prefixWord) {
+        return Dictionary.getInstance().wordFromPrefix(prefixWord);
     }
 
     public String searchWord(String word) {

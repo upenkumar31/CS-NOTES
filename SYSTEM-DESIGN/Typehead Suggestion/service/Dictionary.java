@@ -38,7 +38,7 @@ public class Dictionary {
         temp.characterNode.setEndOfWord(true);
     }
 
-    public List<String> wordFromSuffix(String word)
+    public List<String> wordFromPrefix(String word)
     {
         WordNode endNode = getCharacterNodeEndOfPrefix(word);
         if(endNode ==  null)
