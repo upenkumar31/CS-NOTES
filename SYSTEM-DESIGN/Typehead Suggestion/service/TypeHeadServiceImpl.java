@@ -28,7 +28,7 @@ public class TypeHeadServiceImpl implements TypeHeadService {
      * @return
      */
     @Override
-    public List<String> getWordFromSuffix(String suffixWord) {
+    public List<String> getWordFromPrefix(String suffixWord) {
         return Dictionary.getInstance().wordFromSuffix(suffixWord);
     }
 
