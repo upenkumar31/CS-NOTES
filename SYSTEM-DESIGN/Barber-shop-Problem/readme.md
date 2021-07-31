@@ -8,9 +8,15 @@ Created Chair producer/Consumer class based on Thread Concept
 
 ### Output of demoClass
 No Customer,Barber is sleeping
+
 Serving chair 0 to Upen
+
 Serving chair 1 to Tom
+
 Serving chair 2 to Anthony
+
 Serving chair 3 to John
+
 Serving chair 4 to soo
+
 All Chair Occupied
