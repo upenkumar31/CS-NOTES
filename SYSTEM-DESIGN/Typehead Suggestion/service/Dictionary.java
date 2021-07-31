@@ -40,7 +40,7 @@ public class Dictionary {
 
     public List<String> wordFromSuffix(String word)
     {
-        WordNode endNode = getCharacterNodeEndOfSuffix(word);
+        WordNode endNode = getCharacterNodeEndOfPrefix(word);
         if(endNode ==  null)
             return null;
         suggestedWord = new ArrayList<>();
@@ -60,19 +60,19 @@ public class Dictionary {
             getWords(node,word+wordNode.characterNode.getCharacter());
         }
     }
-    private WordNode getCharacterNodeEndOfSuffix(String word)
+    private WordNode getCharacterNodeEndOfPrefix(String word)
     {
-        WordNode suffix=getWordNode();
+        WordNode prefix=getWordNode();
         for(Character character:word.toCharArray())
         {
-            if(suffix.isCharacterAvailable(character))
+            if(prefix.isCharacterAvailable(character))
             {
-                 suffix = suffix.characterNodePresentOnNode.get(character);
+                prefix = prefix.characterNodePresentOnNode.get(character);
             }
             else
                 return null;
 
         }
-        return suffix;
+        return prefix;
     }
 }
