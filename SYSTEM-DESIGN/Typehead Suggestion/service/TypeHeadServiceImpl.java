@@ -20,7 +20,6 @@ public class TypeHeadServiceImpl implements TypeHeadService {
         for(String word:words )
         Dictionary.getInstance().addWord(word);
     }
-
     /**
      *
      * @param prefixWord
