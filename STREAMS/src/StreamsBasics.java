@@ -12,5 +12,8 @@ public class StreamsBasics {
         System.out.println(filter);
         long finish = System.nanoTime();
         System.out.println(finish-start);
+        List numbers = Arrays.asList(3, 2, 2, 3, 7, 3, 5);
+        double maxElement = numbers.stream().mapToInt((x)-> (int) x).summaryStatistics().getAverage();
+        System.out.println(maxElement);
     }
 }
